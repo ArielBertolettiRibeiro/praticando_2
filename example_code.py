@@ -1,5 +1,5 @@
 
-
+"""
 class Produto:
 
     def __init__(self, name: str, price: float, quantity: int)-> None:
@@ -60,3 +60,4 @@ class Produto:
 
     def stock_value(self) -> float:
         return self.__quantity * self.__price
+        """
