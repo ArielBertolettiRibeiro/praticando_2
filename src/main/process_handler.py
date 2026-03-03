@@ -1,11 +1,12 @@
 from src.view.first_view import introduction_page
+from .constructor.song_register_constructor import song_register_process
 
 def start() -> None:
     while True:
 
         command = introduction_page()
 
-        if command == "1": print("Teste 1")
+        if command == "1": song_register_process()
         elif command == "2": print("Teste 2")
         elif command == "3": exit()
         else: print("\nOpção inválida! \n\n")
